@@ -20,7 +20,7 @@
 mysql -u root -p    [pedirá la contraseña de MySQL]
 
 mysql> create database pruebas_dagss;
-mysql> create user si@localhost identified by "dagss";
+mysql> create user dagss@localhost identified by "dagss";
 mysql> grant all privileges on pruebas_dagss.* to dagss@localhost;
 ```
 
